@@ -18,6 +18,10 @@ function Contact() {
     </form>
   );
 
+  const contactInfo = (
+    
+  );
+
   return (
       <div id="authorization">
         <h1>{authorized ? "Contact" : "Enter the Password"}</h1>
