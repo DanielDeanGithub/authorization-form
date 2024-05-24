@@ -32,7 +32,7 @@ function Contact() {
   return (
       <div id="authorization">
         <h1>{authorized ? "Contact" : "Enter the Password"}</h1>
-
+        {authorized ? contactInfo : login}
       </div>
   );
 }
